@@ -1,5 +1,4 @@
 %title: ELK
-%author: xavki
 
 
 # Filebeat : Input Logs
@@ -8,24 +7,24 @@
 <br>
 
 
-* volet input de type log
+ log-type input pane
 
-* doc : https://www.elastic.co/guide/en/beats/filebeat/current/filebeat-input-log.html
+* doc: https://www.elastic.co/guide/en/beats/filebeat/current/filebeat-input-log.html
 
-* options : (multiples blocs logs)
-		* enabled : activation
-		* paths : chemin (avec ou sans \*)
-		* fields : champs additionnels (environnement...)
-		* recursive_glob.enabled : récursif "massif" (8 niveaux) grâce à \*\*
-		* include_lines
-		* exclude_lines
-		* json : autre vidéo
-		* exclude_files : fichiers exclus
-		* ignore_older : ignorer les fichiers modifié il y a plus de x (dhs)
-		* règles de clotures
-		* symlinks : suivre les liens symboliques
-		* tags
-		* index : si elasticsearch output
+* options: (multiple log blocks)
+* enabled: enable
+* paths: path (with or without \*)
+* fields: additional fields (environment...)
+* recursive_glob.enabled: "massive" recursive (8 levels) thanks to \*\*
+* include_lines
+* exclude_lines
+* json: other video
+* exclude_files: excluded files
+* ignore_older: ignore files modified more than x (dhs) ago
+* fence rules
+* symlinks: follow symbolic links
+* tags
+* index: if elasticsearch output 
 
 -----------------------------------------------------------------------------------------
 
