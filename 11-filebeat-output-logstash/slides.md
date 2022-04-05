@@ -20,16 +20,16 @@ output.logstash:
 
 * compression_level
 
-* worker : nombre de worker par host
+* worker: number of workers per host
 
-* escape_html : échape html
+* escape_html: escape html
 
-* pipelining : nombre de batch lancé sans attendre le ACK
+* pipelining: number of batch launched without waiting for the ACK
 
-* index : nom de l'index
+* index: index name
 
 * timeout
 
 * max_retries
 
-* ssl
+*ssl
