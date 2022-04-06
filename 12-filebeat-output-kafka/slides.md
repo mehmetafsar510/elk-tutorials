@@ -6,7 +6,8 @@
 
 <br>
 
-
+- docker-compose up -d zookeeper
+- docker-compose up -d kafka
 
 - docker run --net=host --rm confluentinc/cp-kafka:latest kafka-topics --bootstrap-server localhost:19092 --list
 
